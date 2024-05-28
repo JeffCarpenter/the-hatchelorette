@@ -1,15 +1,15 @@
-# 🌹 The Hatchlor 🌹 Cookiecutter Template
+# 🌹 The Hatchelorette 🌹 Cookiecutter Template
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/FlorianWilhelm/the-hatchlor/master/images/logo.svg" alt="The Hatchlor logo" width="300" role="img">
+<img src="https://raw.githubusercontent.com/JeffCarpenter/the-hatchelorette/master/images/logo.svg" alt="The hatchelorette logo" width="300" role="img">
 </div>
 
 |         |                                    |
 |---------|------------------------------------|
 | Details | [![Tests][Tests-image]][Tests-link] [![License - MIT][MIT-image]][MIT-link] [![GitHub Sponsors][sponsor-image]][sponsor-link] |
-| Features | [![Hatch project][hatch-image]][hatch-link] [![linting - Ruff][ruff-image]][ruff-link] [![types - mypy][mypy-image]][mypy-link] [![test - pytest][pytest-image]][pytest-link]  [![linting - precommit][precommit-image]][precommit-link] [![docs - mkdocs][mkdocs-image]][mkdocs-link] |
+| Features | [![Hatch project][hatch-image]][hatch-link] [![linting - Ruff][ruff-image]][ruff-link] [![types - mypy][mypy-image]][mypy-link] [![test - pytest][pytest-image]][pytest-link]  [![linting - precommit][precommit-image]][precommit-link]
 
-The Hatchlor is a [cookiecutter] template featuring the modern and extensible Python project manager [hatch] 🐣.
+The Hatchelorette is a [cookiecutter] template featuring the modern and extensible Python project manager [hatch] 🐣.
 
 With hatch, you no longer need to deal with files like `requirements.txt`, `Pipfile` or `environment.yml`,
 just configure everything in `pyproject.toml`. Thus, hatch is a sophisticated alternative to [pipenv], [poetry], [conda], or
@@ -17,11 +17,9 @@ direct [virtualenv] usage. Just think of hatch as a tool that allows you to easi
 e.g. virtual but also docker environments, and helps you to manage them. A bit like what [tox] does for testing environments but
 for all kinds of environments, e.g. testing, linting your code, buildings your docs, and whatever you want.
 
-Check out a [vanilla Python project] created by the Hatchlor.
-
 ## ✨ Features
 
-The Hatchlor integrates the following features:
+The Hatchelorette integrates the following features:
 
 * [hatch]: Python packaging, environment management and test runner,
 * [hatch-vcs]: determine the package version automatically from git tags, e.g. `v0.9`,
@@ -31,9 +29,7 @@ The Hatchlor integrates the following features:
 * [coverage]: tool for measuring code coverage of Python programs with pytest integration,
 * [ruff]: extremely fast Python linter/formatter, which replaces [isort], [flake8], [black], etc.,
 * [mypy]: optional static type checker for Python,
-* [mkdocs]: a fast, simple and downright gorgeous static site generator,
 * [pre-commit]: pre-commit git hooks that make your life easier,
-* [Markdown]: instead of reStructuredText, Markdown is used consistently for all text files,
 * [EditorConfig]: maintain consistent coding styles for multiple developers,
 * [src-layout]: the actual Python package is kept under a `src` folder avoiding many common errors.
 
@@ -53,14 +49,14 @@ pip install -U cookiecutter
 Then generate your Python project with:
 
 ```console
-cookiecutter https://github.com/florianwilhelm/the-hatchlor.git
+cookiecutter https://github.com/JeffCarpenter/the-hatchelorette.git
 ```
 
 🎉 That's  it! Now change into the created directory and check out [`README.md`] for more information.
 
 ## 🪪 License
 
-The Hatchlor is distributed under the terms of the [MIT license](LICENSE.txt).
+The Hatchelorette is distributed under the terms of the [MIT license](LICENSE.txt).
 
 ## 🙏 Credits
 
@@ -74,7 +70,6 @@ To start this project off a lot of inspiration was taken from [hatch], [cookiecu
 [cookiecutter-pypackage]: https://github.com/audreyfeldroy/cookiecutter-pypackage
 [Pyscaffold]: https://pyscaffold.org/
 [pre-commit]: https://pre-commit.com/
-[mkdocs]: https://www.mkdocs.org/
 [Markdown]: https://www.markdownguide.org/
 [src-layout]: https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/
 [flake8]: https://pypi.org/project/flake8/
@@ -91,11 +86,9 @@ To start this project off a lot of inspiration was taken from [hatch], [cookiecu
 [poetry]: https://python-poetry.org/
 [conda]: https://docs.conda.io/
 [virtualenv]: https://virtualenv.pypa.io/
-[vanilla Python project]: https://github.com/FlorianWilhelm/the-hatchlor-demo
-[`README.md`]: https://github.com/FlorianWilhelm/the-hatchlor-demo
 
-[Tests-image]: https://github.com/FlorianWilhelm/the-hatchlor/actions/workflows/run-tests.yml/badge.svg?branch=main
-[Tests-link]: https://github.com/FlorianWilhelm/the-hatchlor/actions/workflows/run-tests.yml
+[Tests-image]: https://github.com/JeffCarpenter/the-hatchelorette/actions/workflows/run-tests.yml/badge.svg?branch=main
+[Tests-link]: https://github.com/JeffCarpenter/the-hatchelorette/actions/workflows/run-tests.yml
 [hatch-image]: https://img.shields.io/badge/%F0%9F%A5%9A-hatch-4051b5.svg
 [hatch-link]: https://github.com/pypa/hatch
 [ruff-image]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json
@@ -104,8 +97,6 @@ To start this project off a lot of inspiration was taken from [hatch], [cookiecu
 [mypy-link]: https://mypy-lang.org/
 [pytest-image]: https://img.shields.io/badge/Tests-pytest-green.svg
 [pytest-link]:  https://docs.pytest.org/
-[mkdocs-image]: https://img.shields.io/badge/Docs-mkdocs-blue.svg
-[mkdocs-link]: https://www.mkdocs.org/
 [precommit-image]: https://img.shields.io/badge/Linting-pre--commit-red.svg
 [precommit-link]:  https://pre-commit.com/
 [MIT-image]: https://img.shields.io/badge/License-MIT-9400d3.svg

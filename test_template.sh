@@ -6,10 +6,10 @@ PROJ_DIR='python-hatch-project'
 
 cd ..
 if [ -d "$PROJ_DIR" ]; then
-  rm -rf "$PROJ_DIR"
+	rm -rf "$PROJ_DIR"
 fi
 
-cookiecutter --no-input hatchlor 
+cookiecutter --no-input Hatchelorette
 
 cd $PROJ_DIR
 
@@ -22,6 +22,5 @@ hatch version
 hatch run fibonacci 10
 hatch run test:cov
 hatch run lint:all
-hatch run docs:build
 
 hatch run pre-commit run --all-files

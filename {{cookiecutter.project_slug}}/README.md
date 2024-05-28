@@ -40,7 +40,7 @@ packages, type `hatch run test:upgrade-pkg pkg1,pkg2`.
 
 This package was created with [The Hatchlor] project template.
 
-[The Hatchlor]: https://github.com/florianwilhelm/the-hatchlor
+[The Hatchlor]: https://github.com/JeffCarpenter/the-hatchelorette
 [pipx]: https://pypa.github.io/pipx/
 [hatch]: https://hatch.pypa.io/
 [pre-commit]: https://pre-commit.com/

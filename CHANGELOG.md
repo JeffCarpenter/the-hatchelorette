@@ -34,7 +34,7 @@
 
 ## Version 0.2.1
 
-- Fix: `CHANGELOG.md` in template included the changes of Hatchlor itself, now it's a dummy again
+- Fix: `CHANGELOG.md` in template included the changes of hatchelorette itself, now it's a dummy again
 
 ## Version 0.2
 
@@ -51,4 +51,4 @@
 
 ## Version 0.1
 
-- New: First release of The Hatchlor cookiecutter template
+- New: First release of The hatchelorette cookiecutter template
