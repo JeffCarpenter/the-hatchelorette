@@ -9,7 +9,7 @@ if [ -d "$PROJ_DIR" ]; then
 	rm -rf "$PROJ_DIR"
 fi
 
-cookiecutter --no-input Hatchelorette
+cookiecutter --no-input the-hatchelorette
 
 cd $PROJ_DIR
 

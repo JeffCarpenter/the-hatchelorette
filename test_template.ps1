@@ -9,7 +9,7 @@ if (Test-Path $PROJ_DIR) {
     Remove-Item -Recurse -Force $PROJ_DIR
 }
 
-cookiecutter --no-input Hatchelorette
+cookiecutter --no-input the-hatchelorette
 
 Set-Location $PROJ_DIR
 
