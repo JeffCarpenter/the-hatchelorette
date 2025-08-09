@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "{{cookiecutter.project_slug}}/*.txt": "jinja",
+        "{{cookiecutter.project_slug}}/*.md": "jinja-md",
+        "{{cookiecutter.project_slug}}/*.yaml": "jinja-yaml",
+        "{{cookiecutter.project_slug}}/*.yml": "jinja-yaml",
+        "{{cookiecutter.project_slug}}/*.py": "jinja-py",
+        "{{cookiecutter.project_slug}}/pyproject.toml": "jinja-toml"
+    }
+}
